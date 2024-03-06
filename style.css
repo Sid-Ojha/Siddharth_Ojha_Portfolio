@@ -400,8 +400,14 @@ border-bottom: 1px solid black;
     }
 }
 
- @media screen and (max-width: 649px) and (min-width:475px) 
+ @media screen and (max-width: 649px) and (min-width:0px) 
 {
+    #nav{
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
     #aboutme #leftbox{
         display: none;
     }
@@ -409,6 +415,12 @@ border-bottom: 1px solid black;
         width: 100%;
         padding: 20px;
     }
+    /* .education .box-container  {
+        width: 18rem; */
+        .education .box-container.box {
+            width: 100%;
+        }
+
     #projects-grid {
         display: grid;
         gap: 3.5rem;
@@ -425,60 +437,20 @@ border-bottom: 1px solid black;
         /* opacity: -1; */
         display: none;
     }
+
+    #footer .fimage{
+        width: 30px;
+        height: 30px;
+    }
+
+    #footer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+       flex-wrap: wrap;
+    }
 }
 
-    @media screen and (max-width: 474px) and (min-width:0px) 
-    {
-        #nav{
-            width: 90%;
-            flex-wrap: wrap;
-            justify-content: center;
-
-        }
-        #aboutme #leftbox{
-            display: none;
-        }
-        #aboutme #rightbox{
-            width: 100%;
-            padding: 20px;
-        }
-        /* .education .box-container  {
-            width: 18rem; */
-            .education .box-container.box {
-                width: 100%;
-            }
-
-        #projects-grid {
-            display: grid;
-            gap: 3.5rem;
-            grid-template-columns: repeat(1, 1fr);
-            margin-left: 40px;
-            margin-right: 40px;
-            margin-top: 40px;
-        }
-        #contact #contact_left{
-            width: 100%;
-        }
-        
-        #contact #contact_right{
-            /* opacity: -1; */
-            display: none;
-        }
-
-        #footer .fimage{
-            width: 30px;
-            height: 30px;
-        }
-
-        #footer{
-            width: 100%;
-            display: flex;
-            justify-content: center;
-           flex-wrap: wrap;
-        }
-   
-
-}
-
+    
 
 
