@@ -346,7 +346,7 @@ a {
 #footer {
     display: flex;
     width: 80%;
-    height: 5px;
+    /* height: 5px; */
     margin: 0 auto;
     padding-top: 5px;
     align-items: center;
