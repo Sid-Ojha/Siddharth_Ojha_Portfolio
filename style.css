@@ -8,6 +8,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    
 }
 
 #main {
@@ -273,6 +274,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    
 }
 
 #contact_left {
@@ -349,13 +351,16 @@ a {
     /* height: 5px; */
     margin: 0 auto;
     padding-top: 5px;
+    padding-bottom: 5px;
     align-items: center;
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    background: #f0ced9;
-    background: linear-gradient(180deg, rgba(240, 206, 217, 1) 0%, rgba(244, 214, 222, 1) 100%);
+    /* margin-bottom: 2rem; */
+    /* /* background: #f0ced9;
+    background: linear-gradient(180deg, rgba(240, 206, 217, 1) 0%, rgba(244, 214, 222, 1) 100%); */
+    /* background-color: green;
+    height: 100%; */ */
 }
 
 #fone{
